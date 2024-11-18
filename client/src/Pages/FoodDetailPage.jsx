@@ -21,7 +21,7 @@ const FoodDetailPage = ({  }) => {
   useEffect(() => {
     const fetchFood = async () => {
       try {
-        const response = await fetch(`http://localhost:5000/api/foods/${id}`);
+        const response = await fetch(`https://rajwen-backend.vercel.app/api/foods/${id}`);
         if (!response.ok) throw new Error('Food not found');
         const data = await response.json();
         setFood(data);
