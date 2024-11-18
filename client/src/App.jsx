@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 import Navbar from './components/Navbar';
 import Home from './Pages/Home';
-import Menu from './pages/Menu';
+import Menu from './pages/menu';
 import Cart from './pages/Cart';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
